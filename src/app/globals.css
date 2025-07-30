@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+  font-family: 'Pacifico', sans-serif;
+  min-height: 100vh;
+  padding: 2rem;
+
+  /* Darker Canva-like gradient */
+  background: linear-gradient(135deg, #b9d4d4 0%, #a5c2d2 35%, #e4cfcf 100%);
+  background-attachment: fixed;
+
+  /* Subtle glowing corners */
+  background-image:
+    radial-gradient(circle at top left, rgba(255, 255, 255, 0.4) 0%, transparent 30%),
+    radial-gradient(circle at bottom right, rgba(255, 255, 255, 0.3) 0%, transparent 30%),
+    linear-gradient(135deg, #b9d4d4 0%, #a5c2d2 35%, #e4cfcf 100%);
+
+  background-blend-mode: screen;
+}
+
+
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+form {
+  margin-bottom: 2rem;
+}
+
+input, textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.note {
+  background: #e5e7eb;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+
